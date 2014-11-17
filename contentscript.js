@@ -1,5 +1,5 @@
 /*
-* Copyright (c) 2014 Vlad Ionescu <github.com/vladionescu OR @uscenoi>
+* Copyright (c) 2014 Vlad Ionescu <github.com/vladionescu OR @ucsenoi>
 * Use of this source code is governed by a do what you want license.
 */
 
