@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+
+    "name": "RIT Professor Ratings",
+    "version": "1.0",
+    "description": "Includes RateMyProfessor stats in search results on RIT's Class Search.",
+    "author": "Vlad Ionescu",
+    "homepage_url": "https://github.com/vladionescu/RIT-Professor-Ratings",
+
+    "default_locale": "en",
+    "icons": {
+        "48": "icon48-export.png",
+        "128": "icon128-export.png"
+    },
+    "permissions": [
+        "http://www.ratemyprofessors.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches" : ["https://classsearch.rit.edu/classSearch/home#/results*"],
+            "js" : ["contentscript.js"]
+        }
+    ]
+
+    // Pick one (or none)
+    //"browser_action": {...},
+    //"page_action": {...},
+
+    //"background": { "persistent": false },
+    //"background_page": ...
+}
