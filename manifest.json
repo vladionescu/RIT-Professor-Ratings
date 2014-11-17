@@ -21,11 +21,4 @@
             "js" : ["contentscript.js"]
         }
     ]
-
-    // Pick one (or none)
-    //"browser_action": {...},
-    //"page_action": {...},
-
-    //"background": { "persistent": false },
-    //"background_page": ...
 }
